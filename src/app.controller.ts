@@ -9,7 +9,7 @@ export class AppController {
   @Get()
   getHome() {
     return {
-      message: 'Employee API is running',
+      message: 'Employee API is running to see employees use /employees',
     };
   }
 
